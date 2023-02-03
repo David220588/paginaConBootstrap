@@ -1,0 +1,81 @@
+body{
+color: #666;
+}
+header{
+    height: 64px;
+    background: #8bc34a;
+}
+.logo{
+    width: 80px;
+    padding-top: 10px;
+    padding-left: 30px;
+    filter: brightness(1.1);
+    mix-blend-mode:multiply;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.splash{
+    background: url(../images/fondo.jpg) center center fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.splash .col-md-8{ 
+    text-align: right;
+}
+.splash h1{
+    
+    background: black;
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+.text{
+    margin-top: 40vh;
+}
+.centrado{
+    text-align: center;
+}
+.espacios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content{
+    padding: 10px;
+}
+.card .btn{
+    float: right;
+}
+
+#letras{
+    background: #f2f2f2;
+}
+i{
+    color:#8bc34a;
+}
+.pintadito{
+    background: #999;
+    padding: 2px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.frases i{
+    font-size: 100px;
+    padding: 20 px;
+}
